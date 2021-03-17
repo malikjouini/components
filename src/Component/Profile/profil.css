@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+.imageprofil{
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 0 0 0 100px;
+}
+.name{
+    font-family: fantasy;
+    transform: translate(-330%,600%);
+    font-size: large;
+}
+.adresse{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    transform:translate(-155%,800%);
+}
